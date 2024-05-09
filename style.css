@@ -10,6 +10,8 @@ img {
   left: 50%;
 }
 header {
+  margin-top: 5px;
+  padding: 5px;
   background-color: aqua;
   text-align: center;
 }
@@ -33,6 +35,8 @@ input {
   border-radius: 5px;
 }
 footer {
+  margin-top: 5px;
+  padding: 5px;
   background-color: rgb(1, 1, 1);
   color: aliceblue;
   text-align: end;
