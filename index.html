@@ -1,93 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- This section for logo of the form -->
-    <nav>
-        <img src="./photo_679689.png" alt="Rajib">
-    </nav>
-    <!-- This section is for the heading part -->
-    <header>
-        <h1>Booking Form - Print Version</h1>
-        <p>Please Complete all details to secure your add booking</p>
-        <hr>
-    </header>
-    <!-- This section is for the main part of the form -->
-    <main>
-        <br>
-        <form action="registration">
-            <label for="Name">Full name *</label>
-            <input type="text" placeholder="Enter your first name">
-            <input type="text" placeholder="Enter your last name">
-            <br>
-            <br>
-            <label for="Business">Business Name</label>
-            <input type="text" placeholder="Enter your business name">
-            <br>
-            <br>
-            <div class="address-container">
-                <div>
-                    <label for="address">Address *</label>
-                </div>
-                <div>
-
-                    <input type="text" placeholder="Enter stress address">
-                    <br><br>
-                    <input type="text" placeholder="Enter stress address line 2">
-                    <br><br>
-                    <input type="text" placeholder="City">
-                    <input type="text" placeholder="State/ Province">
-                    <br><br>
-                    <input type="text" placeholder="Postal/ Zip Code">
-                </div>
-            </div>
-            <br>
-            <br>
-            <label for="email">E-mail *</label>
-            <input type="email" placeholder="ex: myname@example.com">
-            <br><br>
-            <label for="phone-number">Phone number*</label>
-            <input type="number" placeholder="Area code"> -
-            <input type="number" placeholder="Phone Number">
-           <br><br>
-           <div class="artwork-container">
-            <div>
-                <label for="Artwork">Artwork * </label>
-            </div>
-            <div>
-                <input type="checkbox" name="own artwork" id=""> I will supply my own artwork
-                <br>
-                <input type="checkbox" name="own artwork" id=""> I will need my own prepared
-            </div>
-           </div>
-           <br>
-           <label for="upload">Upload Artwork </label>
-           <input type="button" value="Choose File"> No file choosen
-           <br><br>
-           <div class="comment-container">
-            <div>
-                <label for="Comment">Commnets </label>
-            </div>
-            <div>
-                <textarea name="comment" id="" cols="30" rows="10" placeholder="Comments"></textarea>
-            </div>
-           </div>
-           <br>
-           <input type="button" value="Submit" id="submit" style="display: block; margin: 0 auto">
-           <br>
-        </form>
-    </main>
-    <!-- This section for footer to introduce myself -->
-    <footer>
-        <h3>Rajib Kumar Dhar</h3>
-        <h4>ID- MUH2125005M</h4>
-        <p>Year- 03, Term- 01</p>
-        <p>Session: 2020-21</p>
-    </footer>
-</body>
-</html>
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+header {
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+}
+main {
+  margin-top: 2px;
+  padding: 15px;
+  background-color: rgb(23, 108, 174);
+  border-radius: 15px;
+}
+.address-container {
+  display: flex;
+  gap: 20px;
+}
+.artwork-container {
+  display: flex;
+  gap: 20px;
+}
+.comment-container {
+  display: flex;
+  gap: 20px;
+}
+input {
+  border-radius: 5px;
+}
+footer {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: rgb(1, 1, 1);
+  color: aliceblue;
+  text-align: end;
+}
