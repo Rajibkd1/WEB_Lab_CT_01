@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+header {
+  background-color: aqua;
+  text-align: center;
+}
+main {
+  background-color: rgb(23, 108, 174);
+  border-radius: 15px;
+}
+.address-container {
+  display: flex;
+  gap: 20px;
+}
+.artwork-container {
+  display: flex;
+  gap: 20px;
+}
+.comment-container {
+  display: flex;
+  gap: 20px;
+}
+input {
+  border-radius: 5px;
+}
+footer {
+  background-color: rgb(1, 1, 1);
+  color: aliceblue;
+  text-align: end;
+}
